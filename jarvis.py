@@ -109,5 +109,11 @@ while True:
         speak("Restarting.")
         os.system("shutdown /r /t 5")
 
+    elif command == "sleep":
+        speak("Going to sleep.")
+        os.system("rundll32.exe powrprof.dll,SetSuspendState 0,1,0")
+
     else:
         speak("Sorry, I don't understand that command.")
+
+    
