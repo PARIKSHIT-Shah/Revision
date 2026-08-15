@@ -115,5 +115,3 @@ while True:
 
     else:
         speak("Sorry, I don't understand that command.")
-
-    
