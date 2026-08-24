@@ -27,7 +27,6 @@ def get_time():
 def get_date():
     return datetime.datetime.now().strftime("%d %B %Y")
 
-
 def get_weather(city):
     try:
         url = f"https://wttr.in/{city}?format=3"
@@ -104,6 +103,10 @@ while True:
     elif command == "shutdown":
         speak("Shutting down.")
         os.system("shutdown /s /t 5")
+
+    elif command == "back":
+        speak("ok sir.")
+        os.system("back /s /t 5")
 
     elif command == "restart":
         speak("Restarting.")
