@@ -7,6 +7,9 @@ class demo {
         System.out.println(b);
         System.out.println(c);
         System.out.println(d);
+
+
+
         System.out.println("Hello, World!");
         System.out.println("The value of a is: " + a + ", b is: " + b + ", c is: " + c);
     }
