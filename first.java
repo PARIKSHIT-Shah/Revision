@@ -11,6 +11,6 @@ public class first {
         int c = a+b;
         System.out.println("adding both we get ::"+c);
 
-
+        
     }
 }
