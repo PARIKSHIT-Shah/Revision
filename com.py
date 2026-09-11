@@ -16,6 +16,7 @@ class calculator:
         if self.num2 != 0:
             return self.num1 / self.num2
         else:
+
             return "Error: Division by zero"
 
 a = calculator(10, 5)

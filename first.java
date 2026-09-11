@@ -10,7 +10,5 @@ public class first {
         int b = sc.nextInt();
         int c = a+b;
         System.out.println("adding both we get ::"+c);
-
-
     }
 }
