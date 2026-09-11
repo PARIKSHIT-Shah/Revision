@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
+
 class demo {
     public static void main(String[] args) {
-        int a = 5;
+        Scanner sc = new Scanner(System.in);
+        System.out.print(  "Enter a number ::");
+        int a = sc.nextInt();
         int b = 10;
         float c = 3.14f;
         System.out.println(a);

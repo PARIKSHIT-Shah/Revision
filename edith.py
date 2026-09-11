@@ -97,4 +97,4 @@ while True:
         break
 
     else:
-        speak("I did not understand.")
+        speak("I did not understand the command. Please try again.")
